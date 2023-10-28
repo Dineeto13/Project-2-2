@@ -1,0 +1,60 @@
+body {
+  background-color: yellowgreen;
+  font-family: segoe, Verdana, sans-serif;
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: goldenrod;
+  font-family: "Playfair Display", serif;
+  color: indigo;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1em 0;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+nav ul li {
+  display: inline;
+  padding: 0.5em;
+}
+nav ul li a {
+  font-weight: bold;
+  color: indigo;
+}
+nav ul li a.current {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: purple;
+}
+
+main {
+  width: 66%;
+  /* border-right: 2px; */
+  /* height: 350px; */
+  float: left;
+}
+
+aside {
+  width: 33%;
+  float: right;
+}
+
+/* section { 
+  background-color: cornsilk;
+  width: 75%;
+  font-size: 1.2em;
+ }  */
+
+footer {
+  background-color: goldenrod;
+  clear: both;
+}
