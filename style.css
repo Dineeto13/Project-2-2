@@ -62,9 +62,34 @@ main {
   float: left;
 }
 
-aside {
-  width: 33%;
-  float: right;
+.background {
+  /* width: 66%; */
+  /* float: left; */
+  /* margin: 0; */
+  /* padding: 0; */
+  background-image: url("images/wineday.jpg");
+  background-size: cover;
+  height: 100vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+aside img {
+	transition: transform 3s ease;
+	transform-origin: 0 0;
+}
+
+aside img:hover {
+	transform: rotate(720deg);
 }
 
 /* section { 
