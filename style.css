@@ -5,6 +5,11 @@ body {
   margin: auto;
 }
 
+aside {
+  float: right;
+  width: 25%;
+}
+
 label {
   float: left;
   width: 5em;
